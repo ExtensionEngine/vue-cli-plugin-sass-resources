@@ -1,0 +1,45 @@
+{
+  "name": "@extensionengine/vue-cli-plugin-sass-resources",
+  "version": "0.0.0",
+  "description": "vue-cli plugin for sass-resources-loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ExtensionEngine/vue-cli-plugin-sass-resources.git"
+  },
+  "keywords": [
+    "vue",
+    "vue cli",
+    "vue cli plugin",
+    "sass",
+    "sass-resources"
+  ],
+  "author": {
+    "name": "Extension Engine",
+    "email": "info@extensionengine.com",
+    "url": "https://extensionengine.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ExtensionEngine/vue-cli-plugin-sass-resources/issues"
+  },
+  "homepage": "https://github.com/ExtensionEngine/vue-cli-plugin-sass-resources#readme",
+  "dependencies": {
+    "sass-resources-loader": "^2.0.1"
+  },
+  "devDependencies": {
+    "@extensionengine/eslint-config": "^1.0.1",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1",
+    "eslint-config-semistandard": "^15.0.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^5.2.3"
+  }
+}
