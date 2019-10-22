@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretest": "node ./tests/create-project sass-resources-test-project",
+    "test": "jest",
     "release": "npx np"
   },
   "repository": {
@@ -34,14 +35,23 @@
   },
   "devDependencies": {
     "@extensionengine/eslint-config": "^1.0.1",
+    "@vue/cli": "^4.0.4",
     "babel-eslint": "^10.0.3",
+    "dargs": "^7.0.0",
+    "dedent": "^0.7.0",
     "eslint": "^6.5.1",
     "eslint-config-semistandard": "^15.0.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.20.0",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "eslint-plugin-vue": "^5.2.3"
+    "eslint-plugin-vue": "^5.2.3",
+    "execa": "^3.2.0",
+    "fs-extra": "^8.1.0",
+    "glob": "^7.1.5",
+    "jest": "^24.9.0",
+    "resolve-from": "^5.0.0"
   }
 }

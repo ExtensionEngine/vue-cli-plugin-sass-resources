@@ -2,5 +2,14 @@
 
 module.exports = {
   root: true,
-  extends: '@extensionengine'
+  extends: '@extensionengine',
+  root: true,
+  extends: '@extensionengine',
+  overrides: [{
+    files: ['**/*.spec.js'],
+    plugins: ['jest'],
+    env: {
+      jest: true
+    }
+  }]
 };
