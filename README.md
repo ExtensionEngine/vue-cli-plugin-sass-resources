@@ -38,17 +38,17 @@ pluginOptions: {
 
 ## Plugin options
 
-#### scope
+#### `resources`
+
+Path(s) to resource files
+
+- type: `String|Array<String>`
+- required
+
+#### `scope`
 
 Plugin scope
 
 - type: `Array`
 - default: `['scss', 'sass']`
 - optional
-
-#### resources
-
-Path(s) to resource files
-
-- type: `String|Array<String>`
-- required
