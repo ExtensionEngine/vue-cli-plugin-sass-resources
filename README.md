@@ -7,7 +7,7 @@
 # vue-cli-plugin-sass-resources
 
 [![circleci build status](https://badgen.net/circleci/github/ExtensionEngine/vue-cli-plugin-sass-resources/master?icon)](https://circleci.com/gh/ExtensionEngine/vue-cli-plugin-sass-resources)
-[![npm package version](https://badgen.net/npm/v/@extensionengine/vue-cli-plugin-sass-resources)](https://npm.im/@extensionengine/vue-cli-plugin-sass-resources)
+[![npm package version](https://badgen.net/npm/v/vue-cli-plugin-sass-resources)](https://npm.im/vue-cli-plugin-sass-resources)
 [![github license](https://badgen.net/github/license/ExtensionEngine/vue-cli-plugin-sass-resources)](https://github.com/ExtensionEngine/vue-cli-plugin-sass-resources/blob/master/LICENSE)
 [![js @extensionengine style](https://badgen.net/badge/code%20style/@extensionengine/black)](https://github.com/ExtensionEngine/vue-cli-plugin-sass-resources)
 
