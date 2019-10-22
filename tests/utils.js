@@ -16,6 +16,7 @@ async function createProject(name, preset, cwd, initGit = true) {
   const options = dargs({
     force: true,
     inlinePreset: JSON.stringify(preset),
+    packageManager: 'npm',
     git: initGit
   }, { allowCamelCase: true });
   const projectRoot = path.resolve(cwd, name);
