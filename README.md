@@ -13,7 +13,7 @@ version](https://badgen.net/npm/v/vue-cli-plugin-sass-resources)](https://npm.im
 [![github
 license](https://badgen.net/github/license/ExtensionEngine/vue-cli-plugin-sass-resources)](https://github.com/ExtensionEngine/vue-cli-plugin-sass-resources/blob/master/LICENSE)
 [![js @extensionengine
-style](https://badgen.net/badge/code%20style/@extensionengine/black)](https://github.com/ExtensionEngine/vue-cli-plugin-sass-resources)
+style](https://badgen.net/badge/code%20style/@extensionengine/black)](https://github.com/ExtensionEngine/eslint-config)
 
 Vue CLI plugin for
 [`sass-resources-loader`](https://github.com/shakacode/sass-resources-loader)
