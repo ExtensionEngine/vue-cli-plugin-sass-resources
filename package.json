@@ -2,55 +2,58 @@
   "name": "vue-cli-plugin-sass-resources",
   "version": "1.0.1",
   "description": "vue-cli plugin for sass-resources-loader",
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint .",
-    "pretest": "node ./tests/create-project sass-resources-test-project",
-    "test": "jest",
-    "release": "npx np"
+  "keywords": [
+    "sass",
+    "sass-resources",
+    "vue",
+    "vue cli",
+    "vue cli plugin"
+  ],
+  "homepage": "https://github.com/ExtensionEngine/vue-cli-plugin-sass-resources#readme",
+  "bugs": {
+    "url": "https://github.com/ExtensionEngine/vue-cli-plugin-sass-resources/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ExtensionEngine/vue-cli-plugin-sass-resources.git"
   },
-  "keywords": [
-    "vue",
-    "vue cli",
-    "vue cli plugin",
-    "sass",
-    "sass-resources"
-  ],
+  "license": "MIT",
   "author": {
     "name": "Extension Engine",
     "email": "info@extensionengine.com",
     "url": "https://extensionengine.com"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ExtensionEngine/vue-cli-plugin-sass-resources/issues"
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "release": "npx np",
+    "pretest": "node ./tests/create-project sass-resources-test-project",
+    "test": "jest"
   },
-  "homepage": "https://github.com/ExtensionEngine/vue-cli-plugin-sass-resources#readme",
   "dependencies": {
     "sass-resources-loader": "^2.0.1"
   },
   "devDependencies": {
-    "@extensionengine/eslint-config": "^1.0.1",
-    "@vue/cli": "^4.0.4",
+    "@extensionengine/eslint-config": "^1.1.0",
+    "@vue/cli": "^4.1.2",
     "babel-eslint": "^10.0.3",
     "dargs": "^7.0.0",
     "dedent": "^0.7.0",
-    "eslint": "^6.5.1",
+    "eslint": "^6.8.0",
     "eslint-config-semistandard": "^15.0.0",
     "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^22.20.0",
-    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jest": "^23.1.1",
+    "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "eslint-plugin-vue": "^5.2.3",
-    "execa": "^3.2.0",
+    "eslint-plugin-vue": "^6.1.1",
+    "execa": "^4.0.0",
     "fs-extra": "^8.1.0",
-    "glob": "^7.1.5",
+    "glob": "^7.1.6",
     "jest": "^24.9.0",
     "resolve-from": "^5.0.0"
   }
